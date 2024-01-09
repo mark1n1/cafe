@@ -6,7 +6,7 @@
     <title>Cafeteria SASS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@300;400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
@@ -33,15 +33,145 @@
         </div>
     </header>
 
-    <main class="container main-content">
-        <h2>know more <span>about us</span></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ullam ad, illum error modi repudiandae aspernatur neque 
-            dolorum deleniti quam reiciendis expedita repellat beatae 
-            facere odio mollitia sequi repellendus, cumque quasi?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Mollitia nesciunt maxime, sed modi unde sequi voluptatum.
-        </p>
+    <main class="container main-content text-center">
+        <section class="know-more">
+            <h2><span>know more</span> about us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ullam ad, illum error modi repudiandae aspernatur neque 
+                dolorum deleniti quam reiciendis expedita repellat beatae 
+                facere odio mollitia sequi repellendus, cumque quasi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Mollitia nesciunt maxime, sed modi unde sequi voluptatum.
+            </p>
+        </section>
+
+        <section class="icons">
+            <ul class="icons-list">
+                <li>
+                    <img src="build/img/icono_cafe.svg" alt="coffee icon">
+                    <p>Coffee</p>
+                </li>
+                <li>
+                    <img src="build/img/icono_postre.svg" alt="dessert icon">
+                    <p>Desserts</p>
+                </li>
+                <li>
+                    <img src="build/img/icono_te.svg" alt="tea icon">
+                    <p>Tea</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2><span>Live the</span> experience</h2>
+
+            <div class="gallery">
+                <div class="image">
+                    <img src="build/img/galeria/galeria_01.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_02.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_03.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_04.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_05.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_06.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_07.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_08.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_09.jpg" alt="gallery">
+                </div>
+                <div class="image">
+                    <img src="build/img/galeria/galeria_10.jpg" alt="gallery">
+                </div>
+            </div>
+        </section>
     </main>
+
+    <section class="our-menu">
+        <h2><span>Our delicious</span> menu</h2>
+
+        <div class="container grid-menu">
+            <section class="menu coffee">
+                <h3>Coffee</h3>
+                <ul>
+                    <li>
+                        <p>Café Latte <span>Café Espresso con leche caliente evaporada</span> </p>
+                        <p class="price">$25</p>
+                    </li>
+                    <li>
+                        <p>Café Mocha <span>Espresso con crema batida</span> </p>
+                        <p class="price">$30</p>
+                    </li>
+                    <li>
+                        <p>Café Americano <span>Café Negro</span> </p>
+                        <p class="price">$30</p>
+                    </li>
+                    <li>
+                        <p>Capuccino<span>Espresso con una capa suave de espuma</span> </p>
+                        <p class="price">$25</p>
+                    </li>
+                    <li>
+                        <p>Café Mocha Frio<span>Espresso, dulce con mocha y leche.</span> </p>
+                        <p class="price">$29</p>
+                    </li>
+                    <li>
+                        <p>Mocha Frio Quemado<span>Espresso, hielo, con azucar quemada y mantequilla.</span> </p>
+                        <p class="price">$35</p>
+                    </li>
+                    <li>
+                        <p>Latte con Caramelo<span>Espresso, leche y caramelo.</span> </p>
+                        <p class="price">$39</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="menu food">
+                <h3>Food</h3>
+                <ul>
+                    <li>
+                        <p>Baguette de Pollo <span>Delicioso Baguette con pollo a la plancha</span> </p>
+                        <p class="price">$45</p>
+                    </li>
+                    <li>
+                        <p>Baguette Pollo y Queso <span>Baguette combinado con Pollo y Queso Manchego</span> </p>
+                        <p class="price">$50</p>
+                    </li>
+                    <li>
+                        <p>Baguette con Tocino<span>Baguette con especias y verduras, además de tocino</span> </p>
+                        <p class="price">$50</p>
+                    </li>
+                    <li>
+                        <p>Baguette de Jamón<span>Delicioso Baguette con Jamón y Especias</span> </p>
+                        <p class="price">$65</p>
+                    </li>
+                    <li>
+                        <p>Baguette con Jamón, Queso y Tocino<span>El especial de la casa</span> </p>
+                        <p class="price">$69</p>
+                    </li>
+                    <li>
+                        <p>Sandwich de Pollo<span>Delicioso sandwich con Pollo y especies</span> </p>
+                        <p class="price">$65</p>
+                    </li>
+                    <li>
+                        <p>Sandwich de Jamón y queso<span>Queso Amarillo con Jamón y Queso</span> </p>
+                        <p class="price">$59</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </section>
 </body>
 </html>

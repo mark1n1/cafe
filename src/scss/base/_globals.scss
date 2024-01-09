@@ -10,13 +10,15 @@ html {
 }
 
 body {
-    font-family: v.$main_font;
+    font-family: v.$secondFont;
     font-size: 1.6rem;
+    background-color: v.$lightbrown;
 }
 
 p {
     color: v.$black;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
 .container {
@@ -34,18 +36,8 @@ img {
     display: block;
 }
 
-h1, h2, h3 {
-    margin: 0 0 v.$separator 0;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 3.6rem;
-}
-
-h3 {
-    font-size: 3.2rem;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
