@@ -11,12 +11,9 @@
     &:last-of-type {
         margin-bottom: 0;
     }
-    &:nth-child(2) {
+    &:nth-child(even) {
         .text {
-            order: 1;
-        }
-        .image {
-            order: 2;
+            order: -1;
         }
     }
     
