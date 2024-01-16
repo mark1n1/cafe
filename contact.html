@@ -37,11 +37,36 @@
         <h2><span>Reserve</span> your table</h2>
 
         <div class="contact-content">
-            <form>
+            <form class="form">
                 <div class="field">
                     <label for="name">Name:</label>
                     <input type="text" id="name" placeholder="Your name">
-                    
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+                <div class="field">
+                    <label for="email">Number of people:</label>
+                    <select>
+                        <option value="" disabled>-- Choose an option --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="more">+4</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="time">Time:</label>
+                    <input type="time" id="time">
+                </div>
+                <div class="field">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="field">
+                    <input type="submit" value="Send">
                 </div>
             </form>
         </div>
